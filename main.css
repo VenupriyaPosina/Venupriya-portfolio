@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Montserrat:wght@300&family=Poppins&display=swap');
+
+* {
+    /* font-family: 'Montserrat', sans-serif; */
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* .navbar{
+    box-sizing: border-box;
+} */
+
+.home, .about , .contact , .services, .projects {
+    /*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=010101&c2=5d585e&gt=l&gd=dbb
+*/
+background: #010101;
+background: linear-gradient(0deg, #010101, #5D585E);
+
+}
+
+/* .service-item{
+    &:hover{
+        transform: scale(1.5);
+    }
+} */
+@media screen and (min-width: 992px) {
+    .home-text {
+        margin-top: 50px;
+    }
+
+    .home-img {
+        margin-top: 50px;
+    }
+
+}
+
+.social-links:hover{
+    color: white;
+}
